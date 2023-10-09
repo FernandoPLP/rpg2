@@ -495,6 +495,7 @@ if enter == "":
         print(cap270)
         continua= input("Precione enter para continuar")
         escolha == "continuar norte"
+        # itens do báu
     elif escolha == 2:
         print("Você escolheu continuar norte")
         print(cap66)
@@ -515,7 +516,10 @@ if enter == "":
 
 
 
-
+# ultima escolha deu 397
+print(cap397)
+escolha = input("qual foi o caminho escolhido? (52/369)")
+print(f'cap{escolha}')
 
 
 
